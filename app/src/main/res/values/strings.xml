@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Vipe Tiger Shop</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Корзина</string>
+    <string name="vape_tiger">Vape Tiger</string>
+    <string name="home">Новинки</string>
+    <string name="mods">Моды</string>
+    <string name="atomizer">Атомайзеры</string>
+    <string name="charger">Зарядки</string>
+    <string name="osnova">Основа</string>
+    <string name="liquid">Жидкости</string>
+    <string name="acses">Аксессуары</string>
+    <string name="favorite">Избранное</string>
+    <string name="trade_goods">Товары</string>
+    <string name="tovari">Товары</string>
+    <string name="hint_search">Поиск</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

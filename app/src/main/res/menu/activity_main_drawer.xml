@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/news"
+        android:icon="@drawable/news"
+        android:title="@string/home" />
+    <item android:title="@string/tovari">
+        <menu>
+            <group
+                android:checkableBehavior="single"
+                android:title="@string/trade_goods">
+                <item
+                    android:id="@+id/mods"
+                    android:icon="@drawable/right_arrow"
+                    android:title="@string/mods" />
+                <item
+                    android:id="@+id/atomizer"
+                    android:icon="@drawable/right_arrow"
+                    android:title="@string/atomizer" />
+                <item
+                    android:id="@+id/liquid"
+                    android:icon="@drawable/right_arrow"
+                    android:title="@string/liquid" />
+                <item
+                    android:id="@+id/charger"
+                    android:icon="@drawable/right_arrow"
+                    android:title="@string/charger" />
+                <item
+                    android:id="@+id/acses"
+                    android:icon="@drawable/right_arrow"
+                    android:title="@string/acses" />
+                <item
+                    android:id="@+id/fovorit"
+                    android:icon="@drawable/favorit"
+                    android:title="@string/favorite" />
+            </group>
+        </menu>
+    </item>
+</menu>
