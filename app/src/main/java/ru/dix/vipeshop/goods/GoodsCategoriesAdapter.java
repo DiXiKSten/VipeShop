@@ -30,10 +30,10 @@ public class GoodsCategoriesAdapter extends RecyclerView.Adapter<GoodsCategories
     }
 
     //Предоставляет ссылку на представления, используемые в RecyclerView
-    public static class ViewHolder extends RecyclerView.ViewHolder {
+    static class ViewHolder extends RecyclerView.ViewHolder {
         private CardView cardView;
 
-        public ViewHolder(CardView v) {
+        ViewHolder(CardView v) {
             super(v);
             cardView = v;
         }

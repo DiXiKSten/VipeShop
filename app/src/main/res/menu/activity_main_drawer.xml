@@ -11,6 +11,10 @@
                 android:checkableBehavior="single"
                 android:title="@string/trade_goods">
                 <item
+                    android:id="@+id/sets"
+                    android:icon="@drawable/right_arrow"
+                    android:title="@string/set" />
+                <item
                     android:id="@+id/mods"
                     android:icon="@drawable/right_arrow"
                     android:title="@string/mods" />

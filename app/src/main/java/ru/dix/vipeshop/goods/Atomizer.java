@@ -1,7 +1,6 @@
-package ru.dix.vipeshop.goods.atomizers;
+package ru.dix.vipeshop.goods;
 
 import ru.dix.vipeshop.R;
-import ru.dix.vipeshop.goods.BaseGoods;
 
 /**
  * Created by DiX on 03.09.2017.
@@ -14,7 +13,7 @@ public class Atomizer extends BaseGoods {
             new Atomizer("Дрипки", R.drawable.drips)
     };
 
-    public Atomizer(String name, int imageResourceId) {
+    private Atomizer(String name, int imageResourceId) {
         super(name, imageResourceId);
     }
 }

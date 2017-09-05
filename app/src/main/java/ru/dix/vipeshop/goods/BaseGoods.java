@@ -8,7 +8,7 @@ public abstract class BaseGoods {
     private String name;
     private int imageResourceId;
 
-    public BaseGoods(String name, int imageResourceId) {
+    BaseGoods(String name, int imageResourceId) {
         this.name = name;
         this.imageResourceId = imageResourceId;
     }
